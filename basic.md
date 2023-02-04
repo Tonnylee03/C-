@@ -14,3 +14,25 @@ int main()
 }
 
 ```
+
+```c++
+int main()
+{
+    string name;
+    int age;
+    char grade;
+
+    cout << "name: ";
+    getline(cin, name);
+
+    cout << "age: ";
+    cin >> age; // automatically ends line
+
+    cout << "grade: ";
+    cin >> grade;
+
+    cout << "my name is " << name << endl << age << " years old\n" << "grade: " << grade;
+
+    return 0;
+}
+```
