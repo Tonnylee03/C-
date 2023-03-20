@@ -36,3 +36,6 @@ int main()
     return 0;
 }
 ```
+## Expression
+sequences of operators and operands that are used for one or more of these purposes: Computing a value from the operands. Designating objects or functions
+(3/2) + 2;  // constant expression  
